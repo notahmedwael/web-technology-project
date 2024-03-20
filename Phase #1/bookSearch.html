@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Assets/bookshelf.png">
+    <title>Search For A Book | BookMania</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="icon" src="../Assets/bookshelf.png" alt="book-shelf" width="150px"></a>
+    </header>
+    <br>
+    <hr>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="availableBooks.html">Available Books</a></li>
+            <li><a href="#footer">Contact Us</a></li> 
+        </ul>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <div class="search">
+        <input type="text" id="search-field" placeholder="Enter book name">
+        <button type="submit">Search</button>
+
+        <label for="category">Choose Search Type: </label>
+        <select name="category" id="category">
+            <option value="title">Search By Title</option>
+            <option value="author">Search By Author</option>
+            <option value="category">Search By Category</option>
+        </select>
+    </div>
+
+    <div class="search-results">
+
+        <ul id="results">
+            
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <footer id="footer">Footer Test</footer>
+</body>
+</html>
